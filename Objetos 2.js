@@ -43,7 +43,8 @@ function ejercicioTres(arr){
   var objeto = {}; 
 for (i=0; i < arr.length; i++){
   objeto['propiedad'+i] = arr[i];
-  } console.log(objeto);
+  } 
+  return objeto;
 }
  console.log(ejercicioTres([6,5,4,3,2,1]))
 ;
