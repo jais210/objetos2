@@ -11,6 +11,13 @@ function ejercicioUno (numInicial,numFinal){
     return suma;
    
 }
+
+var assert = require ("assert");
+describe ("Prueba Uno", function(){
+  it("suma 1 y 10",function(){
+    assert.equal(55,ejercicioUno(1,10))
+  })
+})
   //console.log (ejercicioUno (1,10));
 
  
@@ -34,6 +41,7 @@ function ejercicioUno (numInicial,numFinal){
          }
      
 var persona = new ChicaLaboratoria ("Tamara", 22, "Estudiante Laboratoria", "Femenino");
+
 
 //console.log(persona.mensaje());
  
