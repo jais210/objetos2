@@ -72,4 +72,4 @@ for (i=0; i < arr.length; i++){
    
 }
 var paciente = new Paciente ("Blanca","Perez",22,"Femenino","Santiago","Chile");
-//console.log(paciente.ficha());
+//console.log(paciente.ficha()); 
