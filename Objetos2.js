@@ -11,6 +11,7 @@ function ejercicioUno (numInicial,numFinal){
     return suma;
    
 }
+var respuestaEjercicioUno = ejercicioUno(1,10);
 
 var assert = require ("assert");
 describe ("Prueba Uno", function(){
@@ -54,8 +55,7 @@ for (i=0; i < arr.length; i++){
   } 
   return objeto;
 }
- console.log(ejercicioTres([6,5,4,3,2,1]))
-;
+ var resupuestaEjercicioTres= ejercicioTres([12,34,20]);
 
 // ejercicio CUATRO
 
