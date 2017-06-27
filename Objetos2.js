@@ -20,7 +20,7 @@ describe ("Prueba Uno", function(){
 })
   //console.log (ejercicioUno (1,10));
 
- 
+ // ejercicio Dos
   
       function ChicaLaboratoria(nombre, edad, ocupacion, genero){
           this.nombre = nombre;
